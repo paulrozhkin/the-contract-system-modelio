@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TheContractSystem" version="4">
+  <OBJECT>
+    <ID name="TheContractSystem" mc="Standard.Project" uid="0f98a0f5-fcc8-49b8-b6e6-933df07df0c7"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[TheContractSystem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="thecontractsystem" mc="Standard.Package" uid="24926077-c2ef-4ac9-9e8d-b0a0c96e9e7a"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="TheContractSystem" mc="Infrastructure.DiagramSet" uid="bf0f3027-eef8-4388-a231-66a5c0fc9fc9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

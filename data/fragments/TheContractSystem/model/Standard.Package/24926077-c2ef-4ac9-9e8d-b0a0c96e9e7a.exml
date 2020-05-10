@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="thecontractsystem" version="4">
+  <OBJECT>
+    <ID name="thecontractsystem" mc="Standard.Package" uid="24926077-c2ef-4ac9-9e8d-b0a0c96e9e7a"/>
+    <PID name="TheContractSystem" mc="Standard.Project" uid="0f98a0f5-fcc8-49b8-b6e6-933df07df0c7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[thecontractsystem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Actor" mc="Standard.Actor" uid="37b4ab00-80ac-49e0-b841-6c23fce3699b"/>
+        <COMPID name="Actor1" mc="Standard.Actor" uid="e4a1b430-332a-40dd-8a51-9f7483629b2f"/>
+        <COMPID name="Use Case" mc="Standard.UseCase" uid="84b22327-7b7a-41ec-a963-b67bcf4c76c4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="thecontractsystem Use Case diagram" mc="Standard.UseCaseDiagram" uid="25247523-8031-40a8-bdaf-da698fd42419"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

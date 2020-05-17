@@ -15,7 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="fc2f73c4-296b-4158-a304-77366a91bcf2"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="6bf93fe1-cdbc-44f7-873c-8482e3dfbbd8"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -33,11 +33,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Блокировка пользователя" mc="Standard.UseCase" uid="62d077bc-6b15-4af0-a5af-41e94562e5c2"/>
+              <ID name="Получения перечня контрактов на убийство монстров регистратором" mc="Standard.UseCase" uid="a9e0cbcb-b03e-4011-b71c-52defca841f0"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="d591f0e2-5dd6-44dc-8b60-82c46c410229"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="7ebf1210-fd12-4685-aac7-6b8b10e09536"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -55,11 +55,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="fc2f73c4-296b-4158-a304-77366a91bcf2"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="6bf93fe1-cdbc-44f7-873c-8482e3dfbbd8"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="3f90a0d4-921a-4948-b35b-e4e318f65500"/>
+                      <ID name="" mc="Standard.Association" uid="c9d52212-ae8e-4d0b-aa1a-aff9a1b6822e"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -71,12 +71,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="3f90a0d4-921a-4948-b35b-e4e318f65500"/>
+              <COMPID name="" mc="Standard.Association" uid="c9d52212-ae8e-4d0b-aa1a-aff9a1b6822e"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="dae1f7e0-1525-48e4-9eb7-882d5f3db08e"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="4b027355-6f11-4338-a8f1-92c48eaf9555"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -94,11 +94,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Регистрация пользователя в системе" mc="Standard.UseCase" uid="cc6998f0-6d86-49de-a92d-43bc8186127a"/>
+              <ID name="Управление персональными данными пользователя" mc="Standard.UseCase" uid="65091f2a-b6c0-4651-89e8-a79e99810cfc"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="25344c8e-7ad2-4c1c-a383-009805e95bff"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="272b605f-63b7-4a43-8263-914e0928e40e"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -116,11 +116,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="dae1f7e0-1525-48e4-9eb7-882d5f3db08e"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="4b027355-6f11-4338-a8f1-92c48eaf9555"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="e0358cca-365e-413d-83bf-1d5fb7233c65"/>
+                      <ID name="" mc="Standard.Association" uid="47c2e83b-5eda-43f8-a255-c66b561469d6"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -132,12 +132,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="e0358cca-365e-413d-83bf-1d5fb7233c65"/>
+              <COMPID name="" mc="Standard.Association" uid="47c2e83b-5eda-43f8-a255-c66b561469d6"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="9b9cd60a-3af9-4643-b5a2-d8e2a435fc2d"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="a37b0b4c-8188-443b-bd41-c2cb54d64f1f"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -155,11 +155,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Изменение персональных данных" mc="Standard.UseCase" uid="ea685286-8e97-43ea-96ec-18e34545f75e"/>
+              <ID name="Регистрация авантюриста" mc="Standard.UseCase" uid="2f486832-1548-4347-8ada-1e588882b467"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="322544f1-85ec-42c1-930b-8dc47a4d90be"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="858abd06-6b9e-4bd8-9112-9c1acf749773"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -177,11 +177,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="9b9cd60a-3af9-4643-b5a2-d8e2a435fc2d"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="a37b0b4c-8188-443b-bd41-c2cb54d64f1f"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="2e4b1e3d-2b32-4b2a-aac4-434d875e3c7e"/>
+                      <ID name="" mc="Standard.Association" uid="081db3a3-d9e5-4e19-9252-eea8692685f4"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -193,12 +193,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="2e4b1e3d-2b32-4b2a-aac4-434d875e3c7e"/>
+              <COMPID name="" mc="Standard.Association" uid="081db3a3-d9e5-4e19-9252-eea8692685f4"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="e8e12f66-7f84-4808-8561-7883321a7020"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="93403081-0437-4c1b-841f-39d03cfef8a2"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -216,11 +216,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Рассмотрение информации о контракте на убийство монстра" mc="Standard.UseCase" uid="c29a1921-28ad-4d48-8d32-571454648957"/>
+              <ID name="Выплата награды за выполнение контракта" mc="Standard.UseCase" uid="518bcb32-9a5c-42b6-818a-98afb941c2bb"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="801e916e-15de-479a-8c3d-45daca35dbcb"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="ddb32762-1b9d-4f8e-ad5d-029b9508f068"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -238,11 +238,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="e8e12f66-7f84-4808-8561-7883321a7020"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="93403081-0437-4c1b-841f-39d03cfef8a2"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="4bf76e6e-7dd7-4fab-b63d-eaf896aa5068"/>
+                      <ID name="" mc="Standard.Association" uid="90460e36-8f8e-4f88-8574-937aec97d83d"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -254,12 +254,12 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="4bf76e6e-7dd7-4fab-b63d-eaf896aa5068"/>
+              <COMPID name="" mc="Standard.Association" uid="90460e36-8f8e-4f88-8574-937aec97d83d"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="752df569-832a-4a09-9c78-a2779872676b"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="32627856-a802-4f05-81a5-692c77b1f38e"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -277,11 +277,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Изменение состояния контракта" mc="Standard.UseCase" uid="c553f6e2-6ca8-4b1b-acb8-85baadc229bb"/>
+              <ID name="Управление контрактом на убийство монстра" mc="Standard.UseCase" uid="99f75cbf-4769-4efa-9bfb-6ac1061c8aad"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="6bdee416-636c-4e7c-be03-2f5c8fbc4ecc"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="0eb4144b-d25c-48d2-a1aa-aeee75db17a9"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -299,11 +299,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="752df569-832a-4a09-9c78-a2779872676b"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="32627856-a802-4f05-81a5-692c77b1f38e"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="795f0b05-209a-4eac-a9d6-1bd705b78b72"/>
+                      <ID name="" mc="Standard.Association" uid="23719478-8738-4af5-aef0-38ff035838c4"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -315,68 +315,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="795f0b05-209a-4eac-a9d6-1bd705b78b72"/>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="8b2e746a-c5c3-4372-9b1a-415d4511de66"/>
-          <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
-            <ATT name="IsChangeable">true</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Target">
-              <ID name="Рассмотрение перечня контрактов на убийство монстра в системе гильдии" mc="Standard.UseCase" uid="99e84dcf-204c-4d6f-ac68-db60039de06f"/>
-            </LINK>
-            <COMP relation="Opposite">
-              <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="a52de371-4870-4fb9-9029-008ddd81d3d6"/>
-                <ATTRIBUTES>
-                  <ATT name="Aggregation">KindIsAssociation</ATT>
-                  <ATT name="IsChangeable">true</ATT>
-                  <ATT name="Changeable">ReadWrite</ATT>
-                  <ATT name="IsDerived">false</ATT>
-                  <ATT name="IsOrdered">false</ATT>
-                  <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
-                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-                  <ATT name="Visibility">Public</ATT>
-                  <ATT name="IsClass">false</ATT>
-                  <ATT name="IsAbstract">false</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="8b2e746a-c5c3-4372-9b1a-415d4511de66"/>
-                  </COMP>
-                  <COMP relation="Association">
-                    <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="06f8564b-4d67-4150-b77e-aac1703e1e92"/>
-                      <ATTRIBUTES>
-                        <ATT name="Name"></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES></DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="06f8564b-4d67-4150-b77e-aac1703e1e92"/>
+              <COMPID name="" mc="Standard.Association" uid="23719478-8738-4af5-aef0-38ff035838c4"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

@@ -19,17 +19,20 @@
         <COMPID name="Регистратор" mc="Standard.Actor" uid="856116b7-d2a6-485a-a9aa-5dcc2af94083"/>
         <COMPID name="Распорядитель рангов" mc="Standard.Actor" uid="6f946a35-6d2c-43e6-b86e-217ac4db2e13"/>
         <COMPID name="Авантюрист" mc="Standard.Actor" uid="7bca255d-f640-4aec-9111-097a02d59a8b"/>
-        <COMPID name="Блокировка пользователя" mc="Standard.UseCase" uid="62d077bc-6b15-4af0-a5af-41e94562e5c2"/>
-        <COMPID name="Регистрация пользователя в системе" mc="Standard.UseCase" uid="cc6998f0-6d86-49de-a92d-43bc8186127a"/>
-        <COMPID name="Изменение персональных данных" mc="Standard.UseCase" uid="ea685286-8e97-43ea-96ec-18e34545f75e"/>
-        <COMPID name="Изменение данных пользователя" mc="Standard.UseCase" uid="8b983ad8-98ef-47f0-8cd9-9ba4645304bb"/>
-        <COMPID name="Рассмотрение информации о контракте на убийство монстра" mc="Standard.UseCase" uid="c29a1921-28ad-4d48-8d32-571454648957"/>
-        <COMPID name="Изменение состояния контракта" mc="Standard.UseCase" uid="c553f6e2-6ca8-4b1b-acb8-85baadc229bb"/>
-        <COMPID name="Рассмотрение перечня контрактов на убийство монстра в системе гильдии" mc="Standard.UseCase" uid="99e84dcf-204c-4d6f-ac68-db60039de06f"/>
-        <COMPID name="Рассмотрение перечня доступных контрактов на убийство монстров" mc="Standard.UseCase" uid="9d64b899-ecc9-44e0-b1e5-09ad0abcb7a8"/>
-        <COMPID name="Получение вознаграждения за убийство монстра" mc="Standard.UseCase" uid="3fdec354-4602-4426-abaa-1b848640a568"/>
-        <COMPID name="Создание контракта на убийство монстра" mc="Standard.UseCase" uid="9292bcf6-2d4a-4a78-a317-e869350c1754"/>
-        <COMPID name="Изменение данных контракта на убийство монстра" mc="Standard.UseCase" uid="6c49f3ec-014f-444d-aa82-e2a872cadc54"/>
+        <COMPID name="Регистрация контрактодателя" mc="Standard.UseCase" uid="d492425d-888c-4063-95bb-e1fe76742a55"/>
+        <COMPID name="Регистрация авантюриста" mc="Standard.UseCase" uid="2f486832-1548-4347-8ada-1e588882b467"/>
+        <COMPID name="Управление пользователями" mc="Standard.UseCase" uid="043d182a-4ec3-4e29-bb25-abe4e43f0684"/>
+        <COMPID name="Управление персональными данными пользователя" mc="Standard.UseCase" uid="65091f2a-b6c0-4651-89e8-a79e99810cfc"/>
+        <COMPID name="Создание контракта на убийство монстра" mc="Standard.UseCase" uid="6c5ced30-ad71-43ae-8a1a-8a2e82f58471"/>
+        <COMPID name="Получения перечня контрактов на убийство монстров регистратором" mc="Standard.UseCase" uid="a9e0cbcb-b03e-4011-b71c-52defca841f0"/>
+        <COMPID name="Просмотр активных (неназначенных) контрактов" mc="Standard.UseCase" uid="3628484e-7e02-4bd6-93aa-4f4f1935cce9"/>
+        <COMPID name="Управление исполнением контракта" mc="Standard.UseCase" uid="29b9727b-7329-45b5-baae-71a2dd3e931d"/>
+        <COMPID name="Выплата награды за выполнение контракта" mc="Standard.UseCase" uid="518bcb32-9a5c-42b6-818a-98afb941c2bb"/>
+        <COMPID name="Расчет ранга авантюриста" mc="Standard.UseCase" uid="3fc0d9f0-aeff-448c-a1eb-d7be0e79d274"/>
+        <COMPID name="Уведомление о изменении статуса контракта" mc="Standard.UseCase" uid="a912a303-93e2-4429-85a1-1c841d7a4d2c"/>
+        <COMPID name="Отмена исполняемого контракта" mc="Standard.UseCase" uid="642a6819-33b7-450d-9732-be31b555e7d1"/>
+        <COMPID name="Управление рангами авантюристов" mc="Standard.UseCase" uid="f19ab13e-9b68-4f70-a5c8-0fd40e6665dc"/>
+        <COMPID name="Управление контрактом на убийство монстра" mc="Standard.UseCase" uid="99f75cbf-4769-4efa-9bfb-6ac1061c8aad"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="thecontractsystem Use Case diagram" mc="Standard.UseCaseDiagram" uid="25247523-8031-40a8-bdaf-da698fd42419"/>

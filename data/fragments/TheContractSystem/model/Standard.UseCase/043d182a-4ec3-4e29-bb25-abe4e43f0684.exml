@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Рассмотрение перечня доступных контрактов на убийство монстров" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Управление пользователями" version="4">
   <OBJECT>
-    <ID name="Рассмотрение перечня доступных контрактов на убийство монстров" mc="Standard.UseCase" uid="9d64b899-ecc9-44e0-b1e5-09ad0abcb7a8"/>
+    <ID name="Управление пользователями" mc="Standard.UseCase" uid="043d182a-4ec3-4e29-bb25-abe4e43f0684"/>
     <PID name="thecontractsystem" mc="Standard.Package" uid="24926077-c2ef-4ac9-9e8d-b0a0c96e9e7a"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Рассмотрение перечня доступных контрактов на убийство монстров]]></ATT>
+      <ATT name="Name"><![CDATA[Управление пользователями]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="644b26a0-3cb0-4dcc-8aa0-c108c3307df8"/>
+          <ID name="" mc="Infrastructure.Note" uid="e355de31-1489-4c32-b73f-80d4a5c845bb"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -29,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="81d51751-ae38-4b8c-9dfa-1de9a4db8e88"/>
+          <ID name="" mc="Infrastructure.Note" uid="df3d7a61-ad7c-43a9-b5f6-d1189f090868"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -43,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="ee89a9bb-dfb7-4160-ba96-eb10d323ce4e"/>
+          <ID name="" mc="Infrastructure.Note" uid="628ced01-1df3-4534-a4d2-91e342867139"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -57,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="d2341622-badc-4823-8250-0f423d55fe41"/>
+          <ID name="" mc="Infrastructure.Note" uid="d734930e-4fba-4d9f-bc75-59e89f393fe3"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -71,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="413dae6e-512c-4340-a1d6-e5f4184a8c53"/>
+          <ID name="" mc="Infrastructure.Note" uid="2e85ea66-e012-45ff-bfbe-786f2370f608"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -85,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="cc08d5ff-dbc7-48eb-ad33-435bd9464596"/>
+          <ID name="" mc="Infrastructure.Note" uid="df0bdc6b-40eb-422a-9f97-edeab9921376"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

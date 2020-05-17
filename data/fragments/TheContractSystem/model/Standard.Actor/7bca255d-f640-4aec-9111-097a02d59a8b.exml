@@ -33,7 +33,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Подача заявки на регистрацию в системе" mc="Standard.UseCase" uid="2f486832-1548-4347-8ada-1e588882b467"/>
+              <ID name="Регистрация авантюриста" mc="Standard.UseCase" uid="2f486832-1548-4347-8ada-1e588882b467"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -155,7 +155,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Принятие контракта для убийства монстра(ов)" mc="Standard.UseCase" uid="29b9727b-7329-45b5-baae-71a2dd3e931d"/>
+              <ID name="Управление исполнением контракта" mc="Standard.UseCase" uid="29b9727b-7329-45b5-baae-71a2dd3e931d"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -216,7 +216,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Получение вознаграждения за выполнение контракта" mc="Standard.UseCase" uid="518bcb32-9a5c-42b6-818a-98afb941c2bb"/>
+              <ID name="Выплата награды за выполнение контракта" mc="Standard.UseCase" uid="518bcb32-9a5c-42b6-818a-98afb941c2bb"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -277,7 +277,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Изменение персональных данных" mc="Standard.UseCase" uid="65091f2a-b6c0-4651-89e8-a79e99810cfc"/>
+              <ID name="Управление персональными данными пользователя" mc="Standard.UseCase" uid="65091f2a-b6c0-4651-89e8-a79e99810cfc"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
@@ -320,7 +320,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="3ad585a2-4ed5-498d-99d4-9eb8a4b5f250"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="94a17f09-b822-45d7-9994-572e2cfda1ee"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -338,11 +338,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Подача заявки на повышение ранга" mc="Standard.UseCase" uid="3fc0d9f0-aeff-448c-a1eb-d7be0e79d274"/>
+              <ID name="Отмена исполняемого контракта" mc="Standard.UseCase" uid="642a6819-33b7-450d-9732-be31b555e7d1"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="16a37ebe-5284-43e2-a7a2-ba9744b8c48d"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="ac1e86fc-c3a5-4168-9c12-83c78a6a1b17"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -360,11 +360,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="3ad585a2-4ed5-498d-99d4-9eb8a4b5f250"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="94a17f09-b822-45d7-9994-572e2cfda1ee"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="bd9db853-be30-433f-9bc6-d7f9b8a3550d"/>
+                      <ID name="" mc="Standard.Association" uid="1a022ca3-b09f-44d8-8c30-c35a224c0c14"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -376,7 +376,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="bd9db853-be30-433f-9bc6-d7f9b8a3550d"/>
+              <COMPID name="" mc="Standard.Association" uid="1a022ca3-b09f-44d8-8c30-c35a224c0c14"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

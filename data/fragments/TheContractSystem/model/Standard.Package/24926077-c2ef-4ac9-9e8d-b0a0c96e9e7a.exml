@@ -24,7 +24,7 @@
         <COMPID name="Управление пользователями" mc="Standard.UseCase" uid="043d182a-4ec3-4e29-bb25-abe4e43f0684"/>
         <COMPID name="Управление персональными данными пользователя" mc="Standard.UseCase" uid="65091f2a-b6c0-4651-89e8-a79e99810cfc"/>
         <COMPID name="Создание контракта на убийство монстра" mc="Standard.UseCase" uid="6c5ced30-ad71-43ae-8a1a-8a2e82f58471"/>
-        <COMPID name="Получения перечня контрактов на убийство монстров регистратором" mc="Standard.UseCase" uid="a9e0cbcb-b03e-4011-b71c-52defca841f0"/>
+        <COMPID name="Получение регистратором перечня контрактов на убийство монстров " mc="Standard.UseCase" uid="a9e0cbcb-b03e-4011-b71c-52defca841f0"/>
         <COMPID name="Просмотр активных (неназначенных) контрактов" mc="Standard.UseCase" uid="3628484e-7e02-4bd6-93aa-4f4f1935cce9"/>
         <COMPID name="Управление исполнением контракта" mc="Standard.UseCase" uid="29b9727b-7329-45b5-baae-71a2dd3e931d"/>
         <COMPID name="Выплата награды за выполнение контракта" mc="Standard.UseCase" uid="518bcb32-9a5c-42b6-818a-98afb941c2bb"/>
@@ -33,9 +33,21 @@
         <COMPID name="Отмена исполняемого контракта" mc="Standard.UseCase" uid="642a6819-33b7-450d-9732-be31b555e7d1"/>
         <COMPID name="Управление рангами авантюристов" mc="Standard.UseCase" uid="f19ab13e-9b68-4f70-a5c8-0fd40e6665dc"/>
         <COMPID name="Управление контрактом на убийство монстра" mc="Standard.UseCase" uid="99f75cbf-4769-4efa-9bfb-6ac1061c8aad"/>
+        <COMPID name="Проверка корректности введенных данных" mc="Standard.UseCase" uid="5c7874c2-af29-4601-bb60-79475e2f8bdf"/>
+        <COMPID name="Уведомление пользователя о результатах регистрации" mc="Standard.UseCase" uid="357bf400-1a6e-4d3b-b4de-be28b83af2e2"/>
+        <COMPID name="Рассмотрение заявления пользователя" mc="Standard.UseCase" uid="9e1303a0-f93e-47e6-abaa-440096c08aa4"/>
+        <COMPID name="Уведомление пользователя о подаче заявления на должность авантюриста" mc="Standard.UseCase" uid="ffd0a803-ce66-4808-a861-c91cce9f195c"/>
+        <COMPID name="Уведомление регистратора о принятие  пользователя в гильдию на должность авантюриста" mc="Standard.UseCase" uid="00298f9b-5b2d-435d-ad97-1d55b4fad5ca"/>
+        <COMPID name="Авторизация пользователя в системе" mc="Standard.UseCase" uid="af6e9c2f-de61-47f1-8849-b092c034476c"/>
+        <COMPID name="Уведомление пользователя о результатах авторизации" mc="Standard.UseCase" uid="94b1cbbf-2373-4319-8732-75f158b8d1b6"/>
+        <COMPID name="Уведомление администратора о результатах регистрации пользователя." mc="Standard.UseCase" uid="ec14c9c0-d293-4df7-b3b9-94d240631319"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="thecontractsystem Use Case diagram" mc="Standard.UseCaseDiagram" uid="25247523-8031-40a8-bdaf-da698fd42419"/>
+        <COMPID name="Use Case - registration of the contractor" mc="Standard.UseCaseDiagram" uid="c9e7cc46-cfb3-433e-8119-660ee9290669"/>
+        <COMPID name="Use Case - registration of the adventurer" mc="Standard.UseCaseDiagram" uid="6739453c-43e9-42f5-9fe1-08d485723eba"/>
+        <COMPID name="Use Case - authorization" mc="Standard.UseCaseDiagram" uid="261a4343-7e10-4678-988d-4b0b7f320cb0"/>
+        <COMPID name="Use Case - admin panel" mc="Standard.UseCaseDiagram" uid="fe927436-b643-4eaa-8002-cebd2670ebd1"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

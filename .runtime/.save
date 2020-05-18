@@ -1,2 +1,6 @@
-#Sun May 17 15:03:38 MSK 2020
+#Tue May 19 01:32:47 MSK 2020
+org.modelio.diagram.editor.OpenedDiagrams4='Use Case - admin panel' {fe927436-b643-4eaa-8002-cebd2670ebd1} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams3='Use Case - authorization' {261a4343-7e10-4678-988d-4b0b7f320cb0} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams2='Use Case - registration of the adventurer' {6739453c-43e9-42f5-9fe1-08d485723eba} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams1='Use Case - registration of the contractor' {c9e7cc46-cfb3-433e-8119-660ee9290669} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams0='thecontractsystem Use Case diagram' {25247523-8031-40a8-bdaf-da698fd42419} Standard.UseCaseDiagram

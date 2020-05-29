@@ -14,8 +14,6 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Администратор" mc="Standard.Actor" uid="37b4ab00-80ac-49e0-b841-6c23fce3699b"/>
-        <COMPID name="Контрактодатель" mc="Standard.Actor" uid="e4a1b430-332a-40dd-8a51-9f7483629b2f"/>
         <COMPID name="Регистратор" mc="Standard.Actor" uid="856116b7-d2a6-485a-a9aa-5dcc2af94083"/>
         <COMPID name="Распорядитель рангов" mc="Standard.Actor" uid="6f946a35-6d2c-43e6-b86e-217ac4db2e13"/>
         <COMPID name="Авантюрист" mc="Standard.Actor" uid="7bca255d-f640-4aec-9111-097a02d59a8b"/>
@@ -26,7 +24,6 @@
         <COMPID name="Создание контракта на убийство монстра" mc="Standard.UseCase" uid="6c5ced30-ad71-43ae-8a1a-8a2e82f58471"/>
         <COMPID name="Получение регистратором перечня контрактов на убийство монстров " mc="Standard.UseCase" uid="a9e0cbcb-b03e-4011-b71c-52defca841f0"/>
         <COMPID name="Просмотр активных (неназначенных) контрактов" mc="Standard.UseCase" uid="3628484e-7e02-4bd6-93aa-4f4f1935cce9"/>
-        <COMPID name="Управление исполнением контракта" mc="Standard.UseCase" uid="29b9727b-7329-45b5-baae-71a2dd3e931d"/>
         <COMPID name="Выплата награды за выполнение контракта" mc="Standard.UseCase" uid="518bcb32-9a5c-42b6-818a-98afb941c2bb"/>
         <COMPID name="Расчет ранга авантюриста" mc="Standard.UseCase" uid="3fc0d9f0-aeff-448c-a1eb-d7be0e79d274"/>
         <COMPID name="Уведомление о изменении статуса контракта" mc="Standard.UseCase" uid="a912a303-93e2-4429-85a1-1c841d7a4d2c"/>
@@ -41,13 +38,38 @@
         <COMPID name="Авторизация пользователя в системе" mc="Standard.UseCase" uid="af6e9c2f-de61-47f1-8849-b092c034476c"/>
         <COMPID name="Уведомление пользователя о результатах авторизации" mc="Standard.UseCase" uid="94b1cbbf-2373-4319-8732-75f158b8d1b6"/>
         <COMPID name="Уведомление администратора о результатах регистрации пользователя." mc="Standard.UseCase" uid="ec14c9c0-d293-4df7-b3b9-94d240631319"/>
+        <COMPID name="Уведомление пользователя о результатах проведенной операции" mc="Standard.UseCase" uid="1c267b90-6e25-4516-a422-5fe70f3aaa09"/>
+        <COMPID name="Создание нового пользователя" mc="Standard.UseCase" uid="eddee9d2-1123-4e5d-8c7f-74f7e03dc962"/>
+        <COMPID name="Уведомление администратора о результатах блокировки пользователя" mc="Standard.UseCase" uid="7eece117-77e3-4014-b2fe-9b557b6f4e76"/>
+        <COMPID name="Блокирование/разблокирование пользователя" mc="Standard.UseCase" uid="7a0e3ccb-ca04-409f-8eef-6109d7de6b70"/>
+        <COMPID name="Рассмотрение контракта пользователя" mc="Standard.UseCase" uid="3597b921-8060-48ec-bb33-42fe569b1b92"/>
+        <COMPID name="Уведомление контрактодателя о подаче контракта на рассмотрение" mc="Standard.UseCase" uid="b8be6af5-a914-4789-9cd8-f1689b412196"/>
+        <COMPID name="Уведомление регистратора о изменение статуса контракта" mc="Standard.UseCase" uid="cbb7b30f-62d2-466e-82cf-4579f990248b"/>
+        <COMPID name="Администратор" mc="Standard.Actor" uid="61d5b644-169e-44b7-b7ca-6fda0e282883"/>
+        <COMPID name="Уведомление авантюриста о изменение статуса контракта" mc="Standard.UseCase" uid="1e29ae32-6e57-48ce-9cf5-e25da0ee123d"/>
+        <COMPID name="Контрактодатель" mc="Standard.Actor" uid="80d4ab78-e8d3-4a38-876c-d324a96574fa"/>
+        <COMPID name="Управление исполнением контракта" mc="Standard.UseCase" uid="bdd25ccc-7d01-4b40-98b2-0422e323693a"/>
+        <COMPID name="Выйди из учетной записи" mc="Standard.UseCase" uid="668f28a6-9f6c-44f6-ad54-89a36faa4142"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="thecontractsystem Use Case diagram" mc="Standard.UseCaseDiagram" uid="25247523-8031-40a8-bdaf-da698fd42419"/>
         <COMPID name="Use Case - registration of the contractor" mc="Standard.UseCaseDiagram" uid="c9e7cc46-cfb3-433e-8119-660ee9290669"/>
         <COMPID name="Use Case - registration of the adventurer" mc="Standard.UseCaseDiagram" uid="6739453c-43e9-42f5-9fe1-08d485723eba"/>
         <COMPID name="Use Case - authorization" mc="Standard.UseCaseDiagram" uid="261a4343-7e10-4678-988d-4b0b7f320cb0"/>
-        <COMPID name="Use Case - admin panel" mc="Standard.UseCaseDiagram" uid="fe927436-b643-4eaa-8002-cebd2670ebd1"/>
+        <COMPID name="Use Case - changing personal data" mc="Standard.UseCaseDiagram" uid="ba5204ee-678d-457d-955f-d889ea591361"/>
+        <COMPID name="Use Case create user" mc="Standard.UseCaseDiagram" uid="be42069e-cf70-41fc-8147-a63fb82868d6"/>
+        <COMPID name="Use Case - bloked user" mc="Standard.UseCaseDiagram" uid="7ec85989-4247-4c44-9076-e1834ae46151"/>
+        <COMPID name="Use Case -create contract" mc="Standard.UseCaseDiagram" uid="a5d1e264-80ea-4a2c-9eaa-747543169378"/>
+        <COMPID name="Use Case - getting a list of contracts" mc="Standard.UseCaseDiagram" uid="aebeb112-9c4d-4b0d-97a7-75641ab60083"/>
+        <COMPID name="Use Case - managing a contract to kill a monster" mc="Standard.UseCaseDiagram" uid="6cab4cc5-fe51-4d70-b02b-05575031457f"/>
+        <COMPID name="Use Case - notification of changes to the contract status" mc="Standard.UseCaseDiagram" uid="a4d1fcb1-9e09-43d2-a142-36140439d796"/>
+        <COMPID name="Use Case - view active contracts" mc="Standard.UseCaseDiagram" uid="72d45296-9d88-451c-ac2f-6713a84a78b1"/>
+        <COMPID name="Use Case contract execution" mc="Standard.UseCaseDiagram" uid="170952d7-ce08-4711-8f2d-3f418daa566c"/>
+        <COMPID name="Use Case - payment of funds" mc="Standard.UseCaseDiagram" uid="f84505bb-505f-42f2-ae5b-3c6daf82f97d"/>
+        <COMPID name="Use Case - deviation of contract" mc="Standard.UseCaseDiagram" uid="bbcef08d-7cec-4d88-893c-2895f83921dd"/>
+        <COMPID name="Use Case - calculation of rank" mc="Standard.UseCaseDiagram" uid="80603e92-5df4-4f33-9ab8-5302071372ed"/>
+        <COMPID name="Use Case - update rank" mc="Standard.UseCaseDiagram" uid="2735253b-2c13-4d0f-a302-58847a45a844"/>
+        <COMPID name="Use Case - exit" mc="Standard.UseCaseDiagram" uid="081fda22-bd07-457d-b070-e6ab75917bbe"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

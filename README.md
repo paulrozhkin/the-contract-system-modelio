@@ -1,6 +1,9 @@
 # The Contract System diagrams in Modelio
 This is the repository of UML diagrams in Modelio for the Contact System project.
 
+## Linked Repositories
+- [Client](https://github.com/paulrozhkin/the-contract-system-web-client)
+- [Server](https://github.com/paulrozhkin/the-contract-system-server)
 
 # Installation
  - Install ["Modelio"](https://www.modelio.org/)

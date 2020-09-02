@@ -7,7 +7,7 @@ This is the repository of UML diagrams in Modelio for the Contact System project
 
 # Installation
  - Install ["Modelio"](https://www.modelio.org/)
- - Clone this repo to `modelio\workspace\` directory
+ - Clone this repo to `modelio\workspace\` directory (by default `C:\Users\{username}\modelio\workspace`)
  - Open Modelio
  
 # Attention!

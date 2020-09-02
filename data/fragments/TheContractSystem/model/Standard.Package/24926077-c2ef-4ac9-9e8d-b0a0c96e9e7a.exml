@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="a73758c8-ea42-476a-8efb-e6f7afdfa3bc"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Регистратор" mc="Standard.Actor" uid="856116b7-d2a6-485a-a9aa-5dcc2af94083"/>
         <COMPID name="Распорядитель рангов" mc="Standard.Actor" uid="6f946a35-6d2c-43e6-b86e-217ac4db2e13"/>

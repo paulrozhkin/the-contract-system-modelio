@@ -1,4 +1,4 @@
-#Fri May 29 15:59:12 MSK 2020
+#Wed Sep 02 11:20:54 MSK 2020
 org.modelio.diagram.editor.OpenedDiagrams9='Use Case - managing a contract to kill a monster' {6cab4cc5-fe51-4d70-b02b-05575031457f} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams8='Use Case - getting a list of contracts' {aebeb112-9c4d-4b0d-97a7-75641ab60083} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams7='Use Case -create contract' {a5d1e264-80ea-4a2c-9eaa-747543169378} Standard.UseCaseDiagram
@@ -9,6 +9,7 @@ org.modelio.diagram.editor.OpenedDiagrams3='Use Case - authorization' {261a4343-
 org.modelio.diagram.editor.OpenedDiagrams2='Use Case - registration of the adventurer' {6739453c-43e9-42f5-9fe1-08d485723eba} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams1='Use Case - registration of the contractor' {c9e7cc46-cfb3-433e-8119-660ee9290669} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams0='thecontractsystem Use Case diagram' {25247523-8031-40a8-bdaf-da698fd42419} Standard.UseCaseDiagram
+org.modelio.diagram.editor.OpenedDiagrams18='State Machine Contract Status diagram' {fd5822e8-928a-4ba2-b638-f27ae74ebe0c} Standard.StateMachineDiagram
 org.modelio.diagram.editor.OpenedDiagrams17='Use Case - exit' {081fda22-bd07-457d-b070-e6ab75917bbe} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams16='Use Case - update rank' {2735253b-2c13-4d0f-a302-58847a45a844} Standard.UseCaseDiagram
 org.modelio.diagram.editor.OpenedDiagrams15='Use Case - calculation of rank' {80603e92-5df4-4f33-9ab8-5302071372ed} Standard.UseCaseDiagram
